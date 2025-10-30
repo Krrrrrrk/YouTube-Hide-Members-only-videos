@@ -1,12 +1,16 @@
 // ==UserScript==
-// @name         YouTube: Hide "Members only" videos
-// @namespace    https://filthandbugs.com
+// @name         YouTube: Hide "Members Only" Videos
+// @namespace    https://github.com/krrrrrrk/youtube-hide-members-only
 // @version      1.0
-// @description  Hides any YouTube video tile that shows the "Members only" badge
+// @description  Hides all YouTube videos with the "Members only" badge.
+// @author       krrrrrrk
 // @match        https://www.youtube.com/*
-// @match        https://m.youtube.com/*
 // @run-at       document-idle
 // @grant        none
+// @license      MIT
+// @homepageURL  https://github.com/Krrrrrrk/YouTube-Hide-Members-only-videos
+// @updateURL    https://github.com/Krrrrrrk/YouTube-Hide-Members-only-videos/raw/main/hide_members_only.user.js
+// @downloadURL  https://github.com/Krrrrrrk/YouTube-Hide-Members-only-videos/raw/main/hide_members_only.user.js
 // ==/UserScript==
 
 (function () {
